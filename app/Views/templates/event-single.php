@@ -1,166 +1,9 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<!-- set the encoding of your site -->
-	<meta charset="utf-8">
-	<!-- set the viewport width and initial-scale on mobile devices -->
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<!-- set the HandheldFriendly -->
-	<meta name="HandheldFriendly" content="True">
-	<!-- set the description -->
-	<meta name="description" content="STUDYLMS HTML Template">
-	<!-- set the Keyword -->
-	<meta name="keywords" content="">
-	<meta name="author" content="STUDYLMS HTML Template">
-	<!-- set the page title -->
-	<title>STUDYLMS HTML Template</title>
-	<!-- include google roboto font cdn link -->
-	<link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i%7COpen+Sans:300,300i,400,400i,600,600i,700,700i" rel="stylesheet">
-	<!-- include the site bootstrap stylesheet -->
-	<link rel="stylesheet" href="css/bootstrap.css">
-	<!-- include the site stylesheet -->
-	<link rel="stylesheet" href="css/plugins.css">
-	<!-- include the site stylesheet -->
-	<link rel="stylesheet" href="css/colors.css">
-	<!-- include the site stylesheet -->
-	<link rel="stylesheet" href="style.css">
-	<!-- include the site responsive stylesheet -->
-	<link rel="stylesheet" href="css/responsive.css">
-</head>
-<body>
+<?= $this->extend('templates/default') ?>
+<?= $this->section('content') ?>
 	<!-- main container of all the page elements -->
 	<div id="wrapper">
-		<!-- header of the page -->
-		<header id="page-header">
-			<!-- top bar -->
-			<div class="top-bar bg-dark text-gray">
-				<div class="container">
-					<div class="row top-bar-holder">
-						<div class="col-xs-9 col">
-							<!-- bar links -->
-							<ul class="font-lato list-unstyled bar-links">
-								<li>
-									<a href="tel:+611234567890">
-										<strong class="dt element-block text-capitalize hd-phone">Call :</strong>
-										<strong class="dd element-block hd-phone">+(61) 123 456 7890</strong>
-										<i class="fas fa-phone-square hd-up-phone hidden-sm hidden-md hidden-lg"><span class="sr-only">phone</span></i>
-									</a>
-								</li>
-								<li>
-									<a href="mailto:&#069;&#120;&#097;&#109;&#112;&#108;&#101;&#064;&#100;&#111;&#109;&#097;&#105;&#110;&#046;&#099;&#111;&#109;">
-										<strong class="dt element-block text-capitalize hd-phone">Email :</strong>
-										<strong class="dd element-block hd-phone">&#069;&#120;&#097;&#109;&#112;&#108;&#101;&#064;&#100;&#111;&#109;&#097;&#105;&#110;&#046;&#099;&#111;&#109;</strong>
-										<i class="fas fa-envelope-square hd-up-phone hidden-sm hidden-md hidden-lg"><span class="sr-only">email</span></i>
-									</a>
-								</li>
-							</ul>
-						</div>
-						<div class="col-xs-3 col justify-end">
-							<!-- user links -->
-							<ul class="list-unstyled user-links fw-bold font-lato">
-								<li><a href="#popup1" class="lightbox">Login</a> <span class="sep">|</span> <a href="#popup2" class="lightbox">Register</a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!-- header holder -->
-			<div class="header-holder">
-				<div class="container">
-					<div class="row">
-						<div class="col-xs-6 col-sm-3">
-							<!-- logo -->
-							<div class="logo">
-								<a href="home.html">
-									<img src="images/logo-dark.png" alt="studylms">
-								</a>
-							</div>
-						</div>
-						<div class="col-xs-6 col-sm-9 static-block">
-							<!-- nav -->
-							<nav id="nav" class="navbar navbar-default">
-								<div class="navbar-header">
-									<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-										<span class="sr-only">Toggle navigation</span>
-										<span class="icon-bar"></span>
-										<span class="icon-bar"></span>
-										<span class="icon-bar"></span>
-									</button>
-								</div>
-								<!-- navbar collapse -->
-								<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-									<!-- main navigation -->
-									<ul class="nav navbar-nav navbar-right main-navigation text-uppercase font-lato">
-										<li class="dropdown">
-											<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">home</a>
-											<ul class="dropdown-menu">
-												<li><a href="home.html">Home 1</a></li>
-												<li><a href="home2.html">Home 2</a></li>
-												<li><a href="home3.html">Home 3</a></li>
-											</ul>
-										</li>
-										<li class="dropdown">
-											<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Courses</a>
-											<ul class="dropdown-menu">
-												<li><a href="courses-list.html">Course List</a></li>
-												<li><a href="course-single.html">Course Single</a></li>
-											</ul>
-										</li>
-										<li class="dropdown">
-											<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Events</a>
-											<ul class="dropdown-menu">
-												<li><a href="events-list.html">Event List</a></li>
-												<li><a href="event-sigle.html">Event Single</a></li>
-											</ul>
-										</li>
-										<li class="dropdown">
-											<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Pages</a>
-											<ul class="dropdown-menu">
-												<li><a href="404.html">404 Page</a></li>
-												<li><a href="about-us.html">About us</a></li>
-												<li><a href="forum.html">Forum Page</a></li>
-												<li><a href="forum-single.html">Forum Single</a></li>
-												<li><a href="instructors-list.html">Instructors List</a></li>
-												<li><a href="instructor-single.html">Instructors Single</a></li>
-												<li><a href="login-register.html">Login &amp; Register</a></li>
-											</ul>
-										</li>
-										<li class="dropdown">
-											<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Blog</a>
-											<ul class="dropdown-menu">
-												<li><a href="blog.html">Blog List</a></li>
-												<li><a href="blog-single.html">Blog Single</a></li>
-											</ul>
-										</li>
-										<li class="dropdown">
-											<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Shop</a>
-											<ul class="dropdown-menu">
-												<li><a href="shop.html">Shop List</a></li>
-												<li><a href="single-product.html">Shop Single</a></li>
-												<li><a href="cartage.html">Cart Page</a></li>
-												<li><a href="checkout.html">Checkout</a></li>
-											</ul>
-										</li>
-										<li><a href="contact.html">coNTACT</a></li>
-									</ul>
-								</div>
-								<!-- navbar form -->
-								<form action="#" class="navbar-form navbar-search-form navbar-right">
-									<a class="fas fa-search search-opener" role="button" data-toggle="collapse" href="#searchCollapse" aria-expanded="false" aria-controls="searchCollapse"><span class="sr-only">search opener</span></a>
-									<!-- search collapse -->
-									<div class="collapse search-collapse" id="searchCollapse">
-										<div class="form-group">
-											<input type="text" class="form-control" placeholder="Search &hellip;">
-											<button type="button" class="fas fa-search btn"><span class="sr-only">search</span></button>
-										</div>
-									</div>
-								</form>
-							</nav>
-						</div>
-					</div>
-				</div>
-			</div>
-		</header>
+		<?= $this->include('templates/another-header') ?>
+		
 		<!-- contain main informative part of the site -->
 		<main id="main">
 			<!-- heading banner -->
@@ -248,7 +91,7 @@
 						<p>Thomas Edison may have been behind the invention of the electric light bulb, but he did not work Edison work along side partners, both financial and commercial, to get his inventions.</p>
 						<!-- mapHolder -->
 						<div class="mapHolder">
-							<span class="mapMarker"><img src="images/map-marker.png" alt="marker"></span>
+							<span class="mapMarker"><img src="<?= base_url('images/map-marker.png') ?>" alt="marker"></span>
 							<iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d13607.729903367896!2d74.30893281977539!3d31.498539800000007!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v1530737870558" style="border:0" allowfullscreen="" width="100%" height="300" frameborder="0"></iframe>
 						</div>
 						<div class="bookmarkFoot">
@@ -360,7 +203,7 @@
 			<aside class="aside container">
 				<div class="row">
 					<div class="col-xs-12 col-sm-6 col-md-3 col">
-						<div class="logo"><a href="home.html"><img src="images/logo.png" alt="studyLMS"></a></div>
+						<div class="logo"><a href="home.html"><img src="<?= base_url('images/logo.png') ?>" alt="studyLMS"></a></div>
 						<p>We have over 20 years experience providing expert Educational both businesses and individuals. Our Investment Committee brings cades the industry expertise in driving our investment approach. portfolio constructor and allocation</p>
 						<a href="#" class="btn btn-default text-uppercase">Start Leaning Now</a>
 					</div>
@@ -455,10 +298,7 @@
 		</div>
 		<!-- back top of the page -->
 		<span id="back-top" class="text-center fa fa-caret-up"></span>
-		<!-- loader of the page -->
-		<div id="loader" class="loader-holder">
-			<div class="block"><img src="images/svg/hearts.svg" width="100" alt="loader"></div>
-		</div>
+
 	</div>
 	<div class="popup-holder">
 		<div id="popup1" class="lightbox-demo">
@@ -503,13 +343,4 @@
 			</form>
 		</div>
 	</div>
-	<!-- include jQuery -->
-	<script src="js/jquery.js"></script>
-	<!-- include jQuery -->
-	<script src="js/plugins.js"></script>
-	<!-- include jQuery <--></-->
-	<script src="js/jquery.main.js"></script>
-	<!-- include jQuery -->
-	<script type="text/javascript" src="js/init.js"></script>
-</body>
-</html>
+<?= $this->endSection('content') ?>

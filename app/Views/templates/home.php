@@ -516,9 +516,9 @@
 							</time>
 						</div>
 						<div class="description-wrap">
-							<h3 class="list-heading"><a href="event-sigle.html">WordPress Theme Development with Bootstrap</a></h3>
+							<h3 class="list-heading"><a href="<?= base_url('event/single') ?>">WordPress Theme Development with Bootstrap</a></h3>
 							<address><time datetime="2011-01-12">8:00 am - 5:00 pm</time> | Great Russell Street, WC1B 3DG UK</address>
-							<a href="event-sigle.html" class="btn btn-default text-uppercase">register</a>
+							<a href="<?= base_url('event/single') ?>" class="btn btn-default text-uppercase">register</a>
 						</div>
 					</li>
 					<li>
@@ -533,9 +533,9 @@
 							</time>
 						</div>
 						<div class="description-wrap">
-							<h3 class="list-heading"><a href="event-sigle.html">Build Apps with React Native</a></h3>
+							<h3 class="list-heading"><a href="<?= base_url('event/single') ?>">Build Apps with React Native</a></h3>
 							<address><time datetime="2011-01-12">12:00 pm - 5:00 pm</time> | No1 Warehouse London, UK</address>
-							<a href="event-sigle.html" class="btn btn-default text-uppercase">register</a>
+							<a href="<?= base_url('event/single') ?>" class="btn btn-default text-uppercase">register</a>
 						</div>
 					</li>
 					<li>
@@ -550,9 +550,9 @@
 							</time>
 						</div>
 						<div class="description-wrap">
-							<h3 class="list-heading"><a href="event-sigle.html">Free Yoga &amp; Excercise Class at Every Morning</a></h3>
+							<h3 class="list-heading"><a href="<?= base_url('event/single') ?>">Free Yoga &amp; Excercise Class at Every Morning</a></h3>
 							<address><time datetime="2011-01-12">4:00 pm - 8:00 pm</time> | 21 New Globe Walk London, UK</address>
-							<a href="event-sigle.html" class="btn btn-default text-uppercase">register</a>
+							<a href="<?= base_url('event/single') ?>" class="btn btn-default text-uppercase">register</a>
 						</div>
 					</li>
 				</ul>

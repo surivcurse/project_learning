@@ -24,3 +24,36 @@ CRITICAL - 2021-01-14 00:19:59 --> Invalid file: templaes/footer.php
 #9 D:\php-project\project_learning\public\index.php(45): CodeIgniter\CodeIgniter->run()
 #10 D:\php-project\project_learning\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\php-project\\...')
 #11 {main}
+CRITICAL - 2021-01-14 03:27:00 --> Call to undefined function extend()
+#0 D:\php-project\project_learning\vendor\codeigniter4\framework\system\View\View.php(246): include()
+#1 D:\php-project\project_learning\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render()
+#2 D:\php-project\project_learning\app\Controllers\Event.php(8): view()
+#3 D:\php-project\project_learning\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Event->single()
+#4 D:\php-project\project_learning\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\php-project\project_learning\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\php-project\project_learning\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\php-project\project_learning\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\php-project\\...')
+#8 {main}
+CRITICAL - 2021-01-14 03:27:20 --> Call to undefined function extend()
+#0 D:\php-project\project_learning\vendor\codeigniter4\framework\system\View\View.php(246): include()
+#1 D:\php-project\project_learning\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render()
+#2 D:\php-project\project_learning\app\Controllers\Event.php(8): view()
+#3 D:\php-project\project_learning\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Event->single()
+#4 D:\php-project\project_learning\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\php-project\project_learning\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\php-project\project_learning\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\php-project\project_learning\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\php-project\\...')
+#8 {main}
+CRITICAL - 2021-01-14 04:28:43 --> Invalid file: templates/event-list.php
+#0 D:\php-project\project_learning\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 D:\php-project\project_learning\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render()
+#2 D:\php-project\project_learning\app\Controllers\Event.php(12): view()
+#3 D:\php-project\project_learning\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Event->list()
+#4 D:\php-project\project_learning\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\php-project\project_learning\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\php-project\project_learning\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\php-project\project_learning\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\php-project\\...')
+#8 {main}
+CRITICAL - 2021-01-14 04:33:03 --> Cannot redeclare App\Controllers\Course::single()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
