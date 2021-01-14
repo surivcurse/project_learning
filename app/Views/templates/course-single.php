@@ -1,33 +1,5 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<!-- set the encoding of your site -->
-	<meta charset="utf-8">
-	<!-- set the viewport width and initial-scale on mobile devices -->
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<!-- set the HandheldFriendly -->
-	<meta name="HandheldFriendly" content="True">
-	<!-- set the description -->
-	<meta name="description" content="STUDYLMS HTML Template">
-	<!-- set the Keyword -->
-	<meta name="keywords" content="">
-	<meta name="author" content="STUDYLMS HTML Template">
-	<!-- set the page title -->
-	<title>STUDYLMS HTML Template</title>
-	<!-- include google roboto font cdn link -->
-	<link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i%7COpen+Sans:300,300i,400,400i,600,600i,700,700i" rel="stylesheet">
-	<!-- include the site bootstrap stylesheet -->
-	<link rel="stylesheet" href="css/bootstrap.css">
-	<!-- include the site stylesheet -->
-	<link rel="stylesheet" href="css/plugins.css">
-	<!-- include the site stylesheet -->
-	<link rel="stylesheet" href="css/colors.css">
-	<!-- include the site stylesheet -->
-	<link rel="stylesheet" href="style.css">
-	<!-- include the site responsive stylesheet -->
-	<link rel="stylesheet" href="css/responsive.css">
-</head>
-<body>
+<?= $this->extend('templates/default') ?>
+<?= $this->section('content') ?>
 	<!-- main container of all the page elements -->
 	<div id="wrapper">
 		<!-- header of the page -->
@@ -72,7 +44,7 @@
 							<!-- logo -->
 							<div class="logo">
 								<a href="home.html">
-									<img src="images/logo-dark.png" alt="studylms">
+									<img src="<?= base_url('images/logo-dark.png') ?>" alt="studylms">
 								</a>
 							</div>
 						</div>
@@ -715,10 +687,7 @@
 		</div>
 		<!-- back top of the page -->
 		<span id="back-top" class="text-center fa fa-caret-up"></span>
-		<!-- loader of the page -->
-		<div id="loader" class="loader-holder">
-			<div class="block"><img src="images/svg/hearts.svg" width="100" alt="loader"></div>
-		</div>
+
 	</div>
 	<div class="popup-holder">
 		<div id="popup1" class="lightbox-demo">
@@ -763,13 +732,4 @@
 			</form>
 		</div>
 	</div>
-	<!-- include jQuery -->
-	<script src="js/jquery.js"></script>
-	<!-- include jQuery -->
-	<script src="js/plugins.js"></script>
-	<!-- include jQuery -->
-	<script src="js/jquery.main.js"></script>
-	<!-- include jQuery -->
-	<script type="text/javascript" src="js/init.js"></script>
-</body>
-</html>
+<?= $this->endSection('content') ?>

@@ -1,33 +1,5 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<!-- set the encoding of your site -->
-	<meta charset="utf-8">
-	<!-- set the viewport width and initial-scale on mobile devices -->
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<!-- set the HandheldFriendly -->
-	<meta name="HandheldFriendly" content="True">
-	<!-- set the description -->
-	<meta name="description" content="STUDYLMS HTML Template">
-	<!-- set the Keyword -->
-	<meta name="keywords" content="">
-	<meta name="author" content="STUDYLMS HTML Template">
-	<!-- set the page title -->
-	<title>STUDYLMS HTML Template</title>
-	<!-- include google roboto font cdn link -->
-	<link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i%7COpen+Sans:300,300i,400,400i,600,600i,700,700i" rel="stylesheet">
-	<!-- include the site bootstrap stylesheet -->
-	<link rel="stylesheet" href="css/bootstrap.css">
-	<!-- include the site stylesheet -->
-	<link rel="stylesheet" href="css/plugins.css">
-	<!-- include the site stylesheet -->
-	<link rel="stylesheet" href="css/colors.css">
-	<!-- include the site stylesheet -->
-	<link rel="stylesheet" href="style.css">
-	<!-- include the site responsive stylesheet -->
-	<link rel="stylesheet" href="css/responsive.css">
-</head>
-<body>
+<?= $this->extend('templates/default') ?>
+<?= $this->section('content') ?>
 	<!-- main container of all the page elements -->
 	<div id="wrapper">
 		<!-- header of the page -->
@@ -104,7 +76,7 @@
 											<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Courses</a>
 											<ul class="dropdown-menu">
 												<li><a href="courses-list.html">Course List</a></li>
-												<li><a href="course-single.html">Course Single</a></li>
+												<li><a href="course/single">Course Single</a></li>
 											</ul>
 										</li>
 										<li class="dropdown">
@@ -282,7 +254,7 @@
 									<div>
 										<strong class="bg-primary text-white font-lato text-uppercase price-tag">$99.00</strong>
 									</div>
-									<h3 class="post-heading"><a href="course-single.html">French for Beginners to Advanced Training</a></h3>
+									<h3 class="post-heading"><a href="course/single">French for Beginners to Advanced Training</a></h3>
 									<div class="post-author">
 										<div class="alignleft rounded-circle no-shrink">
 											<a href="instructor-single.html"><img src="http://placehold.it/35x35" class="rounded-circle" alt="image description"></a>
@@ -325,7 +297,7 @@
 									<div>
 										<strong class="bg-success text-white font-lato text-uppercase price-tag">Free</strong>
 									</div>
-									<h3 class="post-heading"><a href="course-single.html">Introduction to Mobile Apps Development</a></h3>
+									<h3 class="post-heading"><a href="course/single">Introduction to Mobile Apps Development</a></h3>
 									<div class="post-author">
 										<div class="alignleft no-shrink rounded-circle">
 											<a href="instructor-single.html"><img src="http://placehold.it/35x35" class="rounded-circle" alt="image description"></a>
@@ -368,7 +340,7 @@
 									<div>
 										<strong class="bg-primary text-white font-lato text-uppercase price-tag">$85.60</strong>
 									</div>
-									<h3 class="post-heading"><a href="course-single.html">How to Become a Startup Founder</a></h3>
+									<h3 class="post-heading"><a href="course/single">How to Become a Startup Founder</a></h3>
 									<div class="post-author">
 										<div class="alignleft no-shrink rounded-circle">
 											<a href="instructor-single.html"><img src="http://placehold.it/35x35" class="rounded-circle" alt="image description"></a>
@@ -411,7 +383,7 @@
 									<div>
 										<strong class="bg-primary text-white font-lato text-uppercase price-tag">$68.00</strong>
 									</div>
-									<h3 class="post-heading"><a href="course-single.html">Your Complete Guide to Self Devlopement</a></h3>
+									<h3 class="post-heading"><a href="course/single">Your Complete Guide to Self Devlopement</a></h3>
 									<div class="post-author">
 										<div class="alignleft no-shrink rounded-circle">
 											<a href="instructor-single.html"><img src="http://placehold.it/35x35" class="rounded-circle" alt="image description"></a>
@@ -454,7 +426,7 @@
 									<div>
 										<strong class="bg-primary text-white font-lato text-uppercase price-tag">$99.00</strong>
 									</div>
-									<h3 class="post-heading"><a href="course-single.html">French for Beginners to Advanced Training</a></h3>
+									<h3 class="post-heading"><a href="course/single">French for Beginners to Advanced Training</a></h3>
 									<div class="post-author">
 										<div class="alignleft no-shrink rounded-circle">
 											<a href="instructor-single.html"><img src="http://placehold.it/35x35" class="rounded-circle" alt="image description"></a>
@@ -497,7 +469,7 @@
 									<div>
 										<strong class="bg-success text-white font-lato text-uppercase price-tag">Free</strong>
 									</div>
-									<h3 class="post-heading"><a href="course-single.html">Introduction to Mobile Apps Development</a></h3>
+									<h3 class="post-heading"><a href="course/single">Introduction to Mobile Apps Development</a></h3>
 									<div class="post-author">
 										<div class="alignleft no-shrink rounded-circle">
 											<a href="instructor-single.html"><img src="http://placehold.it/35x35" class="rounded-circle" alt="image description"></a>
@@ -540,7 +512,7 @@
 									<div>
 										<strong class="bg-primary text-white font-lato text-uppercase price-tag">$85.60</strong>
 									</div>
-									<h3 class="post-heading"><a href="course-single.html">How to Become a Startup Founder</a></h3>
+									<h3 class="post-heading"><a href="course/single">How to Become a Startup Founder</a></h3>
 									<div class="post-author">
 										<div class="alignleft no-shrink rounded-circle">
 											<a href="instructor-single.html"><img src="http://placehold.it/35x35" class="rounded-circle" alt="image description"></a>
@@ -583,7 +555,7 @@
 									<div>
 										<strong class="bg-primary text-white font-lato text-uppercase price-tag">$68.00</strong>
 									</div>
-									<h3 class="post-heading"><a href="course-single.html">Your Complete Guide to Self Devlopement</a></h3>
+									<h3 class="post-heading"><a href="course/single">Your Complete Guide to Self Devlopement</a></h3>
 									<div class="post-author">
 										<div class="alignleft no-shrink rounded-circle">
 											<a href="instructor-single.html"><img src="http://placehold.it/35x35" class="rounded-circle" alt="image description"></a>
@@ -987,7 +959,7 @@
 						<!-- widget cources list -->
 						<ul class="widget-cources-list list-unstyled">
 							<li>
-								<a href="course-single.html">
+								<a href="course/single">
 									<div class="alignleft">
 										<img src="http://placehold.it/60x60" alt="image description">
 									</div>
@@ -998,7 +970,7 @@
 								</a>
 							</li>
 							<li>
-								<a href="course-single.html">
+								<a href="course/single">
 									<div class="alignleft">
 										<img src="http://placehold.it/60x60" alt="image description">
 									</div>
@@ -1009,7 +981,7 @@
 								</a>
 							</li>
 							<li>
-								<a href="course-single.html">
+								<a href="course/single">
 									<div class="alignleft">
 										<img src="http://placehold.it/60x60" alt="image description">
 									</div>
@@ -1073,10 +1045,7 @@
 		</div>
 		<!-- back top of the page -->
 		<span id="back-top" class="text-center fa fa-caret-up"></span>
-		<!-- loader of the page -->
-		<div id="loader" class="loader-holder">
-			<div class="block"><img src="images/svg/hearts.svg" width="100" alt="loader"></div>
-		</div>
+
 	</div>
 	<div class="popup-holder">
 		<div id="popup1" class="lightbox-demo">
@@ -1121,13 +1090,4 @@
 			</form>
 		</div>
 	</div>
-	<!-- include jQuery -->
-	<script src="js/jquery.js"></script>
-	<!-- include jQuery -->
-	<script src="js/plugins.js"></script>
-	<!-- include jQuery -->
-	<script src="js/jquery.main.js"></script>
-	<!-- include jQuery -->
-	<script type="text/javascript" src="js/init.js"></script>
-</body>
-</html>
+<?= $this->endSection('content') ?>

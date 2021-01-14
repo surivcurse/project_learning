@@ -6,7 +6,6 @@ class Home extends BaseController
 	{
 		return view('templates/home');
 	}
-
 	//--------------------------------------------------------------------
 
 }
