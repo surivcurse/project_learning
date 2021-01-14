@@ -28,7 +28,8 @@
 			<div id="two-columns" class="container">
 				<div class="row">
 					<!-- content -->
-					<article id="content" class="col-xs-12 col-md-9">
+					<!-- <article id="content" class="col-xs-12 col-md-9"> -->
+					<article id="content" class="col-xs-12 col-md-12">
 						<!-- content h1 -->
 						<h1 class="content-h1 fw-semi">Swift Programming for Beginners</h1>
 						<!-- view header -->
@@ -61,6 +62,7 @@
 							</div>
 							<div class="col-xs-12 col-sm-3">
 								<div class="rating-holder">
+									<!--
 									<ul class="star-rating list-unstyled justify-end">
 										<li><span class="fas fa-star"><span class="sr-only">star</span></span></li>
 										<li><span class="fas fa-star"><span class="sr-only">star</span></span></li>
@@ -69,6 +71,8 @@
 										<li><span class="fas fa-star"><span class="sr-only">star</span></span></li>
 									</ul>
 									<strong class="element-block text-right subtitle fw-normal">(2 Reviews)</strong>
+									-->
+									<strong class="element-block text-right subtitle fw-normal">( 2 Views )</strong>
 								</div>
 							</div>
 						</header>
@@ -111,6 +115,15 @@
 									<div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
 										<div class="panel-body">
 											<p>Capitalize on low hanging fruit to identify a ballpark value added activity beta test Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.</p>
+											
+											<div class="widget widget_intro">
+												<h3>Course Intro</h3>
+												<div class="aligncenter overlay">
+													<a href="http://www.youtube.com/embed/9bZkp7q19f0?autoplay=1" class="btn-play far fa-play-circle lightbox fancybox.iframe"></a>
+													<img src="http://placehold.it/260x220" alt="image description">
+												</div>
+											</div>
+
 										</div>
 									</div>
 								</div>
@@ -132,6 +145,13 @@
 									<div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
 										<div class="panel-body">
 											<p>Capitalize on low hanging fruit to identify a ballpark value added activity beta test Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.</p>
+											<div class="widget widget_intro">
+												<h3>Course Intro</h3>
+												<div class="aligncenter overlay">
+													<a href="http://www.youtube.com/embed/9bZkp7q19f0?autoplay=1" class="btn-play far fa-play-circle lightbox fancybox.iframe"></a>
+													<img src="http://placehold.it/260x220" alt="image description">
+												</div>
+											</div>
 										</div>
 									</div>
 								</div>
@@ -153,6 +173,13 @@
 									<div id="collapseThree" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingThree">
 										<div class="panel-body">
 											<p>Capitalize on low hanging fruit to identify a ballpark value added activity beta test Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.</p>
+											<div class="widget widget_intro">
+												<h3>Course Intro</h3>
+												<div class="aligncenter overlay">
+													<a href="http://www.youtube.com/embed/9bZkp7q19f0?autoplay=1" class="btn-play far fa-play-circle lightbox fancybox.iframe"></a>
+													<img src="http://placehold.it/260x220" alt="image description">
+												</div>
+											</div>
 										</div>
 									</div>
 								</div>
@@ -175,6 +202,13 @@
 									<div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
 										<div class="panel-body">
 											<p>Capitalize on low hanging fruit to identify a ballpark value added activity beta test Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.</p>
+											<div class="widget widget_intro">
+												<h3>Course Intro</h3>
+												<div class="aligncenter overlay">
+													<a href="http://www.youtube.com/embed/9bZkp7q19f0?autoplay=1" class="btn-play far fa-play-circle lightbox fancybox.iframe"></a>
+													<img src="http://placehold.it/260x220" alt="image description">
+												</div>
+											</div>
 										</div>
 									</div>
 								</div>
@@ -196,6 +230,13 @@
 									<div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
 										<div class="panel-body">
 											<p>Capitalize on low hanging fruit to identify a ballpark value added activity beta test Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.</p>
+											<div class="widget widget_intro">
+												<h3>Course Intro</h3>
+												<div class="aligncenter overlay">
+													<a href="http://www.youtube.com/embed/9bZkp7q19f0?autoplay=1" class="btn-play far fa-play-circle lightbox fancybox.iframe"></a>
+													<img src="http://placehold.it/260x220" alt="image description">
+												</div>
+											</div>
 										</div>
 									</div>
 								</div>
@@ -278,9 +319,11 @@
 								<a href="#" class="btn btn-default font-lato fw-semi text-uppercase">View Profile</a>
 							</div>
 						</div>
+
+						<!-- 
 						<h2>Reviews</h2>
 						<h3 class="h6 fw-semi">There are 2 reviews on this course</h3>
-						<!-- reviewsList -->
+						-- reviewsList --
 						<ul class="list-unstyled reviewsList">
 							<li>
 								<div class="alignleft">
@@ -319,7 +362,7 @@
 								</div>
 							</li>
 						</ul>
-						<!-- reviesSubmissionForm -->
+						-- reviesSubmissionForm --
 						<form action="#" class="reviesSubmissionForm">
 							<h2 class="text-noCase">Add a Review</h2>
 							<p>Your email address will not be published. Required fields are marked <span class="required">*</span></p>
@@ -362,10 +405,13 @@
 							</div>
 							<button type="submit" class="btn btn-theme btn-warning text-uppercase font-lato fw-bold">Submit</button>
 						</form>
+					-->
 					</article>
-					<!-- sidebar -->
+
+					<!-- 
+					-- sidebar --
 					<aside class="col-xs-12 col-md-3" id="sidebar">
-						<!-- widget course select -->
+						-- widget course select --
 						<section class="widget widget_box widget_course_select">
 							<header class="widgetHead text-center bg-theme">
 								<h3 class="text-uppercase">Take This Course</h3>
@@ -379,7 +425,7 @@
 								<li><i class="far fa-address-card icn no-shrink"></i> Certificate of Completion</li>
 							</ul>
 						</section>
-						<!-- widget categories -->
+						-- widget categories --
 						<section class="widget widget_categories">
 							<h3>Course Categories</h3>
 							<ul class="list-unstyled text-capitalize font-lato">
@@ -392,7 +438,7 @@
 								<li class="cat-item cat-item-7"><a href="#">IT &amp; Software</a></li>
 							</ul>
 						</section>
-						<!-- widget intro -->
+						-- widget intro --
 						<section class="widget widget_intro">
 							<h3>Course Intro</h3>
 							<div class="aligncenter overlay">
@@ -400,10 +446,10 @@
 								<img src="http://placehold.it/260x220" alt="image description">
 							</div>
 						</section>
-						<!-- widget popular posts -->
+						-- widget popular posts --
 						<section class="widget widget_popular_posts">
 							<h3>Popular Courses</h3>
-							<!-- widget cources list -->
+							-- widget cources list --
 							<ul class="widget-cources-list list-unstyled">
 								<li>
 									<a href="course-single.html">
@@ -440,10 +486,10 @@
 								</li>
 							</ul>
 						</section>
-						<!-- widget tags -->
+						-- widget tags --
 						<nav class="widget widget_tags">
 							<h3>Tags</h3>
-							<!-- tag clouds -->
+							-- tag clouds --
 							<ul class="list-unstyled tag-clouds font-lato">
 								<li><a href="#">Future</a></li>
 								<li><a href="#">Science</a></li>
@@ -453,6 +499,7 @@
 							</ul>
 						</nav>
 					</aside>
+					-->
 				</div>
 			</div>
 		</main>

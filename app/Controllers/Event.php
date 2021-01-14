@@ -2,15 +2,14 @@
 
 use CodeIgniter\Controller;
 
-class Course extends Controller 
+class Event extends Controller 
 {
     public function single(){
-
-        return view('templates/course-single');
+        return view('templates/event-single');
     }
 
     public function list(){
-        return view('templates/courses-list');
+        return view('templates/events-list');
     }
 
 }

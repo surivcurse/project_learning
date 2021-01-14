@@ -81,6 +81,7 @@
 												<li><a href="event-sigle.html">Event Single</a></li>
 											</ul>
 										</li>
+										<!--
 										<li class="dropdown">
 											<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Pages</a>
 											<ul class="dropdown-menu">
@@ -109,7 +110,8 @@
 												<li><a href="checkout.html">Checkout</a></li>
 											</ul>
 										</li>
-										<li><a href="contact.html">coNTACT</a></li>
+										-->
+										<li><a href="<?= base_url('contact') ?>">coNTACT</a></li>
 									</ul>
 								</div>
 								<!-- navbar form -->
