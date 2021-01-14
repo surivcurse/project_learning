@@ -1,0 +1,26 @@
+CRITICAL - 2021-01-14 00:19:34 --> Invalid file: templaes/footer.php
+#0 D:\php-project\project_learning\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 D:\php-project\project_learning\vendor\codeigniter4\framework\system\View\View.php(525): CodeIgniter\View\View->render()
+#2 D:\php-project\project_learning\app\Views\templates\home.php(896): CodeIgniter\View\View->include()
+#3 D:\php-project\project_learning\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\php-project\\...')
+#4 D:\php-project\project_learning\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render()
+#5 D:\php-project\project_learning\app\Controllers\Home.php(7): view()
+#6 D:\php-project\project_learning\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#7 D:\php-project\project_learning\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#8 D:\php-project\project_learning\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#9 D:\php-project\project_learning\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 D:\php-project\project_learning\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\php-project\\...')
+#11 {main}
+CRITICAL - 2021-01-14 00:19:59 --> Invalid file: templaes/footer.php
+#0 D:\php-project\project_learning\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 D:\php-project\project_learning\vendor\codeigniter4\framework\system\View\View.php(525): CodeIgniter\View\View->render()
+#2 D:\php-project\project_learning\app\Views\templates\home.php(896): CodeIgniter\View\View->include()
+#3 D:\php-project\project_learning\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\php-project\\...')
+#4 D:\php-project\project_learning\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render()
+#5 D:\php-project\project_learning\app\Controllers\Home.php(7): view()
+#6 D:\php-project\project_learning\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#7 D:\php-project\project_learning\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#8 D:\php-project\project_learning\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#9 D:\php-project\project_learning\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 D:\php-project\project_learning\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\php-project\\...')
+#11 {main}
