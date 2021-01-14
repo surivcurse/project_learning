@@ -66,8 +66,15 @@ defined('DECADE') || define('DECADE', 315360000);
 |
 */
 
-define('SCHEME', 'https://');
 
+
+ if($_SERVER['SERVER_NAME'] == "localhost"){
+    define('SCHEME', 'http://');
+ }else{
+    define('SCHEME', 'https://');
+ }
+
+     
 
 $http_host = $_SERVER['HTTP_HOST'];
 $arr = explode('.', $http_host);
