@@ -70,6 +70,9 @@ define('SCHEME', 'https://');
 
 
 $http_host = $_SERVER['HTTP_HOST'];
+$arr = explode('.', $http_host);
+
+define('DOMAIN', $http_host);
 define('BASE_URL', SCHEME.DOMAIN);
 
 
