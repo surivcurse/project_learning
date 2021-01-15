@@ -30,7 +30,7 @@ class Member extends BaseController
         }
 
         try{
-            if( $this->memberModel->add($member_data) === false){
+            if( $this->memberModel->insert($member_data) === false){
                 $response['errors'] = $this->memberModel->errors();
                 return $this->setResponseFormat('json')->failValidationError($response);  
             }
