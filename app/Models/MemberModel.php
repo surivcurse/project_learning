@@ -71,7 +71,12 @@ class MemberModel extends Model
     }
     public function add($data){
         //$this->builder->set($data);
-        return $this->builder->insert($data);
+        try{
+            return $this->builder->insert($data);
+        }catch(Exception $e  ){
+            return false;
+        }
+       
     }
     public function edit($data, $id){
         return $this->builder->update($data, [$primaryKey => $id]);    
