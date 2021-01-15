@@ -72,7 +72,7 @@ class MemberModel extends Model
     public function add($data){
         //$this->builder->set($data);
         try{
-            return $this->builder->insert($data);
+            return $this->builder->protect(false)->insert($data)->protect(true);
         }catch(\Exception $e  ){
             return false;
         }
