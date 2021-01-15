@@ -11,7 +11,7 @@ class Member extends BaseController
     public function register(){
         $memberModel = new \App\Models\MemberModel();
 
-       // protected $allowedFields = ['f_name','l_name','avatar','gender','name_title', 'email','tel','password','address','class_no'];
+        $allowedFields = ['f_name','l_name','avatar','gender','name_title', 'email','tel','password','address','class_no'];
         // $email = $_POST['email'];
         // $email = $_POST['email'];
         // $email = $_POST['email'];
@@ -19,7 +19,7 @@ class Member extends BaseController
         // $email = $_POST['email'];
         // $email = $_POST['email'];
         // $email = $_POST['email'];
-       return $this->setResponseFormat('json')->respond($memberModel->getFields,200);
+       return $this->setResponseFormat('json')->respond($memberModel->getFields(),200);
     }
 
 
