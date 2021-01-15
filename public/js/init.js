@@ -9,3 +9,10 @@ var config = {
 for (var selector in config) {
   $(selector).chosen(config[selector]);
 }
+
+var app = new Vue({
+  el: '#quiz',
+  data: {
+    message: 'Hello Vue!'
+  }
+})

@@ -209,3 +209,11 @@ CRITICAL - 2021-01-14 22:29:25 --> Array to string conversion
 #15 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
 #16 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
 #17 {main}
+CRITICAL - 2021-01-14 23:33:35 --> syntax error, unexpected 's' (T_STRING), expecting ')'
+#0 /var/www/html/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('templates/cours...', Array, true)
+#1 /var/www/html/app/Controllers/Course.php(9): view('templates/cours...')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Course->single()
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}

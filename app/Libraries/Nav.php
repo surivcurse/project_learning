@@ -22,7 +22,7 @@ class Nav {
                 "course" => [
                     "course1"=>[
                         "text"=>"Course List",
-                        "url"=>"course/single"
+                        "url"=>"course/list"
                     ],
                     "course2"=>[
                         "text"=>"Course Single",
@@ -32,7 +32,7 @@ class Nav {
                 "event" => [
                     "event1"=>[
                         "text"=>"Event List",
-                        "url"=>"event/single"
+                        "url"=>"event/list"
                     ],
                     "event2"=>[
                         "text"=>"Event Single",

@@ -37,7 +37,15 @@
 	<script src="<?= base_url('js/plugins.js') ?>"></script>
 	<!-- include jQuery -->
 	<script src="<?= base_url('js/jquery.main.js') ?>"></script>
+
+	<script src="<?= base_url('js/vue.min.js') ?>"></script>
+
+	<script src="<?= base_url('js/vue-countdown.min.js') ?>"></script>
+
+	<script>Vue.component(VueCountdown.name, VueCountdown);</script>
+
 	<!-- include jQuery -->
 	<script type="text/javascript" src="<?= base_url('js/init.js') ?>"></script>
+
 </body>
 </html>

@@ -234,7 +234,7 @@
 									<div id="collapse2One" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading2One">
 										<div class="panel-body">
 											<p>Capitalize on low hanging fruit to identify a ballpark value added activity beta test Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.</p>
-											<p><a href="http://www.youtube.com/embed/9bZkp7q19f0?autoplay=1" class="btn btn-default btn-play far fa-play-circle lightbox fancybox.iframe">Play Video</a></p>
+											<p><a href="<?php echo base_url('quiz/1/1')?>" class="btn btn-default far">Take Quiz</a></p>
 										</div>
 									</div>
 								</div>
@@ -256,7 +256,7 @@
 									<div id="collapse2Two" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading2Two">
 										<div class="panel-body">
 											<p>Capitalize on low hanging fruit to identify a ballpark value added activity beta test Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.</p>
-											<p><a href="http://www.youtube.com/embed/9bZkp7q19f0?autoplay=1" class="btn btn-default btn-play far fa-play-circle lightbox fancybox.iframe">Play Video</a></p>
+											<p><a href="<?php echo base_url('quiz/1/2')?>" class="btn btn-default far">Take Quiz</a></p>
 										</div>
 									</div>
 								</div>

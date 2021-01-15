@@ -27,8 +27,9 @@
 			<div id="two-columns" class="container">
 				<div class="row">
 					<!-- content -->
-					<article id="content" class="col-xs-12 col-md-9">
+					<article id="content" class="col-xs-12 col-md-12">
 						<!-- show head -->
+						<!--
 						<header class="show-head">
 							<p> Showing 1–9 of 15 results</p>
 							<select class="chosen-select-no-single">
@@ -38,6 +39,7 @@
 								<option value="0">All Courses</option>
 							</select>
 						</header>
+						-->
 						<div class="row flex-wrap">
 							<div class="col-xs-12 col-sm-6 col-lg-4">
 								<!-- popular post -->
@@ -422,12 +424,13 @@
 							</ul>
 						</nav>
 					</article>
-					<!-- sidebar -->
+					<!--
+					-- sidebar --
 					<aside class="col-xs-12 col-md-3" id="sidebar">
-						<!-- widget search -->
+						-- widget search --
 						<section class="widget widget_search">
 							<h3>Course Search</h3>
-							<!-- search form -->
+							-- search form --
 							<form action="#" class="search-form">
 								<fieldset>
 									<input placeholder=" Search&hellip;" class="form-control" name="s" type="search">
@@ -435,7 +438,7 @@
 								</fieldset>
 							</form>
 						</section>
-						<!-- widget categories -->
+						-- widget categories --
 						<section class="widget widget_categories">
 							<h3>Course Categories</h3>
 							<ul class="list-unstyled text-capitalize font-lato">
@@ -448,7 +451,7 @@
 								<li class="cat-item cat-item-7"><a href="#">IT &amp; Software</a></li>
 							</ul>
 						</section>
-						<!-- widget intro -->
+						-- widget intro --
 						<section class="widget widget_intro">
 							<h3>Course Intro</h3>
 							<div class="aligncenter overlay">
@@ -456,10 +459,10 @@
 								<img src="http://placehold.it/262x220" alt="image description">
 							</div>
 						</section>
-						<!-- widget popular posts -->
+						-- widget popular posts --
 						<section class="widget widget_popular_posts">
 							<h3>Popular Courses</h3>
-							<!-- widget cources list -->
+							-- widget cources list --
 							<ul class="widget-cources-list list-unstyled">
 								<li>
 									<a href="course-single.html">
@@ -497,6 +500,7 @@
 							</ul>
 						</section>
 					</aside>
+					-->
 				</div>
 			</div>
 		</main>
