@@ -1,6 +1,8 @@
 <?php 
 namespace App\Models;
 use CodeIgniter\Model;
+use CodeIgniter\Database\ConnectionInterface;
+use CodeIgniter\Validation\ValidationInterface;
 
 class MemberModel extends Model
 {
