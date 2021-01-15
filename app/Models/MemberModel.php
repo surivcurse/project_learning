@@ -27,8 +27,8 @@ class MemberModel extends Model
 
     public function __construct(ConnectionInterface &$db  = null )
     {
-        $this->setValidationRules($validationRules);
-        $this->setValidationMessages($validationMessages);   
+        $this->setValidationRules($this->validationRules);
+        $this->setValidationMessages($this->validationMessages);   
         if ($db instanceof ConnectionInterface)
         {
             $this->db =& $db;
