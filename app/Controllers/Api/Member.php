@@ -7,10 +7,10 @@ class Member extends BaseController
 {
 
     use ResponseTrait;
-   
+    
     public function __construct()
     {
-        $memberModel = new \App\Models\MemberModel();
+        $this->memberModel = new \App\Models\MemberModel();
     }
 
     public function register(){
