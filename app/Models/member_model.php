@@ -2,7 +2,7 @@
 namespace App\Models;
 use CodeIgniter\Model;
 
-class Member_Model extends Model
+class MemberModel extends Model
 {
     protected $db;
     protected $table = 'member';
