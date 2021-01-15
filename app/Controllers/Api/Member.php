@@ -1,4 +1,4 @@
-<?php namespace App\Controllers;
+<?php namespace App\Controllers\Api;
 
 class Member extends BaseController
 {
@@ -7,7 +7,7 @@ class Member extends BaseController
         return view('welcome_message');
     }
 
-    
+
     public function register(){
         $memberModel = model('App\Models\Member_Model');
         print_r($memberModel->allowedFields);
