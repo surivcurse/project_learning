@@ -10,7 +10,7 @@ class MemberModel extends Model
     protected $primaryKey = '_id';
     
     protected $allowedFields = ['f_name','l_name','avatar','gender','name_title', 'email','tel','password','address','class_no'];
-
+    public $allField = ['f_name','l_name','avatar','gender','name_title', 'email','tel','password','address','class_no'];
     protected $validationRules    = [
         'username'     => 'required|alpha_numeric_space|min_length[3]',
         'email'        => 'required|valid_email|is_unique[member.email]',
