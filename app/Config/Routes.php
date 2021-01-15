@@ -33,7 +33,7 @@ $routes->setAutoRoute(true);
 $routes->get('/', 'Home::index');
 $routes->add('/quiz/(:num)/(:num)', 'Quiz::index/$1/$2');
 
-$routes->group('api', function($routes)
+$routes->group('api', ['namespace' => 'App\Api\v1'], function($routes)
 {
 	//$routes->add('member', 'Api\Member::index');
 	$routes->resource('member');
