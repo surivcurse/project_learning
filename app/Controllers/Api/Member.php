@@ -17,7 +17,7 @@ class Member extends BaseController
       
         $member_data = [];
 
-        foreach ($memberModel->getFields() as $keyfield){
+        foreach ($this->memberModel->getFields() as $keyfield){
             if(isset($_POST[$keyfield])){
                 $member_data[$key]  = $_POST[$keyfield];
             }
@@ -31,7 +31,7 @@ class Member extends BaseController
         // $email = $_POST['email'];
         // $email = $_POST['email'];
         // $email = $_POST['email'];
-       return $this->setResponseFormat('json')->respond($memberModel->getFields(),200);
+       return $this->setResponseFormat('json')->respond($this->memberModel->getFields(),200);
     }
 
 
