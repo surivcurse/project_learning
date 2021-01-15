@@ -2,6 +2,12 @@
 
 class Member extends BaseController
 {
+
+    public function index(){
+        return view('welcome_message');
+    }
+
+    
     public function register(){
         $memberModel = model('App\Models\Member_Model');
         print_r($memberModel->allowedFields);
