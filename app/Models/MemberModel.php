@@ -20,7 +20,8 @@ class MemberModel extends Model
     ];
 
     protected $validationMessages = [
-        'email'        => [
+        'email' => [
+            'required'   => 'Your email is required here',
             'is_unique' => 'Sorry. That email has already been taken. Please choose another.'
         ]
     ];
