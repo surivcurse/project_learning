@@ -1,6 +1,6 @@
 <?php namespace App\Controllers\Api;
 
-
+use CodeIgniter\API\ResponseTrait;
 use App\Controllers\BaseController;
 
 class Member extends BaseController
