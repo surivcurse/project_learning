@@ -5,6 +5,7 @@ use CodeIgniter\Model;
 class MemberModel extends Model
 {
     protected $db;
+    protected $builder;
     protected $table = 'member';
 
     protected $primaryKey = '_id';
