@@ -6,6 +6,8 @@ use App\Controllers\BaseController;
 class Member extends BaseController
 {
 
+    use ResponseTrait;
+
     public function register(){
         $memberModel = new \App\Models\MemberModel();
 
