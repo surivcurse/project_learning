@@ -18,8 +18,8 @@ class Member extends BaseController
     public function register(){
         $memberModel = new MemberModel($db);
         $member_data = [];
-        $this->setValidationRules($memberModel->validationRules);
-        $this->setValidationMessages($memberModel->validationMessages);   
+        $memberModel->setValidationRules($memberModel->validationRules);
+        $memberModel->setValidationMessages($memberModel->validationMessages);   
         // $member_id  = (int)$_SERVER['HTTP_MID'];
         // $token = $_SERVER['HTTP_TOKEN'];
         foreach ($memberModel->requiredField as $k){
