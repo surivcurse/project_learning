@@ -112,18 +112,10 @@
 										</h3>
 									</div>
 									<!-- collapseOne -->
-									<div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+									<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
 										<div class="panel-body">
 											<p>Capitalize on low hanging fruit to identify a ballpark value added activity beta test Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.</p>
-											
-											<div class="widget widget_intro">
-												<h3>Course Intro</h3>
-												<div class="aligncenter overlay">
-													<a href="http://www.youtube.com/embed/9bZkp7q19f0?autoplay=1" class="btn-play far fa-play-circle lightbox fancybox.iframe"></a>
-													<img src="http://placehold.it/260x220" alt="image description">
-												</div>
-											</div>
-
+											<p><a href="http://www.youtube.com/embed/9bZkp7q19f0?autoplay=1" class="btn btn-default btn-play far fa-play-circle lightbox fancybox.iframe">Play Video</a></p>
 										</div>
 									</div>
 								</div>
@@ -145,13 +137,7 @@
 									<div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
 										<div class="panel-body">
 											<p>Capitalize on low hanging fruit to identify a ballpark value added activity beta test Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.</p>
-											<div class="widget widget_intro">
-												<h3>Course Intro</h3>
-												<div class="aligncenter overlay">
-													<a href="http://www.youtube.com/embed/9bZkp7q19f0?autoplay=1" class="btn-play far fa-play-circle lightbox fancybox.iframe"></a>
-													<img src="http://placehold.it/260x220" alt="image description">
-												</div>
-											</div>
+											<p><a href="http://www.youtube.com/embed/9bZkp7q19f0?autoplay=1" class="btn btn-default btn-play far fa-play-circle lightbox fancybox.iframe">Play Video</a></p>
 										</div>
 									</div>
 								</div>
@@ -170,16 +156,10 @@
 										</h3>
 									</div>
 									<!-- collapseOne -->
-									<div id="collapseThree" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingThree">
+									<div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
 										<div class="panel-body">
 											<p>Capitalize on low hanging fruit to identify a ballpark value added activity beta test Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.</p>
-											<div class="widget widget_intro">
-												<h3>Course Intro</h3>
-												<div class="aligncenter overlay">
-													<a href="http://www.youtube.com/embed/9bZkp7q19f0?autoplay=1" class="btn-play far fa-play-circle lightbox fancybox.iframe"></a>
-													<img src="http://placehold.it/260x220" alt="image description">
-												</div>
-											</div>
+											<p><a href="http://www.youtube.com/embed/9bZkp7q19f0?autoplay=1" class="btn btn-default btn-play far fa-play-circle lightbox fancybox.iframe">Play Video</a></p>
 										</div>
 									</div>
 								</div>
@@ -202,13 +182,7 @@
 									<div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
 										<div class="panel-body">
 											<p>Capitalize on low hanging fruit to identify a ballpark value added activity beta test Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.</p>
-											<div class="widget widget_intro">
-												<h3>Course Intro</h3>
-												<div class="aligncenter overlay">
-													<a href="http://www.youtube.com/embed/9bZkp7q19f0?autoplay=1" class="btn-play far fa-play-circle lightbox fancybox.iframe"></a>
-													<img src="http://placehold.it/260x220" alt="image description">
-												</div>
-											</div>
+											<p><a href="http://www.youtube.com/embed/9bZkp7q19f0?autoplay=1" class="btn btn-default btn-play far fa-play-circle lightbox fancybox.iframe">Play Video</a></p>
 										</div>
 									</div>
 								</div>
@@ -230,13 +204,7 @@
 									<div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
 										<div class="panel-body">
 											<p>Capitalize on low hanging fruit to identify a ballpark value added activity beta test Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.</p>
-											<div class="widget widget_intro">
-												<h3>Course Intro</h3>
-												<div class="aligncenter overlay">
-													<a href="http://www.youtube.com/embed/9bZkp7q19f0?autoplay=1" class="btn-play far fa-play-circle lightbox fancybox.iframe"></a>
-													<img src="http://placehold.it/260x220" alt="image description">
-												</div>
-											</div>
+											<p><a href="http://www.youtube.com/embed/9bZkp7q19f0?autoplay=1" class="btn btn-default btn-play far fa-play-circle lightbox fancybox.iframe">Play Video</a></p>
 										</div>
 									</div>
 								</div>
@@ -266,6 +234,7 @@
 									<div id="collapse2One" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading2One">
 										<div class="panel-body">
 											<p>Capitalize on low hanging fruit to identify a ballpark value added activity beta test Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.</p>
+											<p><a href="http://www.youtube.com/embed/9bZkp7q19f0?autoplay=1" class="btn btn-default btn-play far fa-play-circle lightbox fancybox.iframe">Play Video</a></p>
 										</div>
 									</div>
 								</div>
@@ -287,12 +256,14 @@
 									<div id="collapse2Two" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading2Two">
 										<div class="panel-body">
 											<p>Capitalize on low hanging fruit to identify a ballpark value added activity beta test Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.</p>
+											<p><a href="http://www.youtube.com/embed/9bZkp7q19f0?autoplay=1" class="btn btn-default btn-play far fa-play-circle lightbox fancybox.iframe">Play Video</a></p>
 										</div>
 									</div>
 								</div>
 							</div>
 						</section>
-						<!-- bookmarkFoot -->
+						<!--
+						-- bookmarkFoot --
 						<div class="bookmarkFoot">
 							<div class="bookmarkCol">
 								<ul class="socail-networks list-unstyled">
@@ -307,7 +278,7 @@
 							</div>
 						</div>
 						<h2>About Instructor</h2>
-						<!-- instructorInfoBox -->
+						-- instructorInfoBox --
 						<div class="instructorInfoBox">
 							<div class="alignleft">
 								<a href="instructor-single.html"><img src="http://placehold.it/80x80" alt="Merry Jhonson"></a>
@@ -320,7 +291,7 @@
 							</div>
 						</div>
 
-						<!-- 
+ 
 						<h2>Reviews</h2>
 						<h3 class="h6 fw-semi">There are 2 reviews on this course</h3>
 						-- reviewsList --
