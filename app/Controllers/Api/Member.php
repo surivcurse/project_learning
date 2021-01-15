@@ -19,7 +19,7 @@ class Member extends BaseController
         // $email = $_POST['email'];
         // $email = $_POST['email'];
         // $email = $_POST['email'];
-       return $this->respondCreated($memberModel->getFields);
+       return $this->respond($memberModel->getFields,200);
     }
 
 
