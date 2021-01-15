@@ -36,7 +36,7 @@ class MemberModel extends Model
             $this->db = \Config\Database::connect();
         }
         
-        $builder = $this->db->table($this->table);
+        $this->builder = $this->db->table($this->table);
     }
 
     protected $beforeInsert = ['hashPassword'];
@@ -57,26 +57,26 @@ class MemberModel extends Model
     }
 
     public function getByEmail($email){
-        $query = $builder->getWhere(['email' => $email]);   
+        $query = $this->builder->getWhere(['email' => $email]);   
         return $query->getRowArray();
     }
 
     public function getUsers(){
-        $query = $builder->get();
+        $query = $this->builder->get();
         return $query->getResultArray();
     }
     public function view($id){
-        $query = $builder->getWhere([$primaryKey => $id]);   
+        $query = $this->builder->getWhere([$primaryKey => $id]);   
         return $query->getRowArray();    
     }
     public function add($data){
-        return $builder->insert($data);
+        return $this->builder->insert($data);
     }
     public function edit($data, $id){
-        return $builder->update($data, [$primaryKey => $id]);    
+        return $this->builder->update($data, [$primaryKey => $id]);    
     }
     public function del($id){
-        return $builder->delete([$primaryKey => $id]); 
+        return $this->builder->delete([$primaryKey => $id]); 
     }
 
 
