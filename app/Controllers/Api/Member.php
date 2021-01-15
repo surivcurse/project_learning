@@ -7,11 +7,24 @@ class Member extends BaseController
 {
 
     use ResponseTrait;
+   
+    public function __construct()
+    {
+        parent::__construct();
+        $memberModel = new \App\Models\MemberModel();
+    }
 
     public function register(){
-        $memberModel = new \App\Models\MemberModel();
+      
+        $member_data = [];
 
-        $allowedFields = ['f_name','l_name','avatar','gender','name_title', 'email','tel','password','address','class_no'];
+        foreach ($memberModel->getFields() as $keyfield){
+            if(isset($_POST[$keyfield])){
+                $member_data[$key]  = $_POST[$keyfield];
+            }
+        }
+
+
         // $email = $_POST['email'];
         // $email = $_POST['email'];
         // $email = $_POST['email'];
