@@ -13,7 +13,7 @@ class Member extends BaseController
         // $email = $_POST['email'];
         // $email = $_POST['email'];
         // $email = $_POST['email'];
-
+        return view('templates/home');
     }
 
 
