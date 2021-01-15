@@ -20,11 +20,11 @@ class Member extends BaseController
         // $member_id  = (int)$_SERVER['HTTP_MID'];
         // $token = $_SERVER['HTTP_TOKEN'];
 
-        foreach ($this->memberModel->getFields() as $keyfield){
-             if(isset($_POST[$keyfield])){
-                $member_data[$key] = $_POST[$keyfield];
+        foreach ($this->memberModel->getFields() as $k){
+             if(isset($_POST[$k])){
+                $member_data[$k] = $_POST[$k];
              }else{
-                $member_data[$key] = null;
+                $member_data[$k] = null;
              }
             
         }
