@@ -17,7 +17,7 @@ class Member extends BaseController
         // $email = $_POST['email'];
         // $email = $_POST['email'];
         // $email = $_POST['email'];
-       return $this->response($memberModel->getFields);
+       return $this->respond($memberModel->getFields);
     }
 
 
