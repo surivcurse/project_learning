@@ -32,6 +32,8 @@ class MemberModel extends Model
         if ($db instanceof ConnectionInterface)
         {
             $this->db =& $db;
+        }else{
+            $this->db = \Config\Database::connect();
         }
         
         $builder = $this->db->table($this->table);
