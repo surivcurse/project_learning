@@ -21,8 +21,7 @@ class Member extends BaseController
 
         // $member_id  = (int)$_SERVER['HTTP_MID'];
         // $token = $_SERVER['HTTP_TOKEN'];
-        $rules = $memberModel->validationRules;
-        foreach ($memberModel->getFields() as $k){
+        foreach ($memberModel->requiredField as $k){
              if(isset($_POST[$k])){
                 $member_data[$k] = $_POST[$k];
              }else{

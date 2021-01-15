@@ -14,6 +14,7 @@ class MemberModel extends Model
     protected $primaryKey = '_id';
     
     protected $allowedFields = ['f_name','l_name','avatar','gender','name_title', 'email','tel','password','address','class_no'];
+    public $requiredField = ['f_name','l_name','avatar','gender','name_title', 'email','tel','password','pass_confirm','address','class_no'];
     protected $validationRules    = [
         'username'     => 'required|alpha_numeric_space|min_length[3]',
         'email'        => 'required|valid_email|is_unique[member.email]',
@@ -23,10 +24,23 @@ class MemberModel extends Model
     ];
 
     protected $validationMessages = [
+        'username' => [
+            'required'   => 'Your email is required here',
+        ],
+        'password' => [
+            'required'   => 'Your email is required here',
+        ],
+        'pass_confirm' => [
+            'required'   => 'Your email is required here',
+        ],
+        'tel' => [
+            'required'   => 'Your email is required here',
+        ],
         'email' => [
             'required'   => 'Your email is required here',
             'is_unique' => 'Sorry. That email has already been taken. Please choose another.'
         ]
+
     ];
 
     protected $skipValidation = false;
