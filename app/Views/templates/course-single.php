@@ -291,7 +291,7 @@
 							</div>
 						</div>
 
- 
+
 						<h2>Reviews</h2>
 						<h3 class="h6 fw-semi">There are 2 reviews on this course</h3>
 						-- reviewsList --
