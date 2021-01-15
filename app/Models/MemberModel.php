@@ -5,7 +5,7 @@ use CodeIgniter\Model;
 class MemberModel extends Model
 {
     protected $db;
-    //protected $builder;
+    protected $builder;
     protected $table = 'member';
     protected $returnType = '\App\Entities\Member';
     protected $primaryKey = '_id';
@@ -36,7 +36,7 @@ class MemberModel extends Model
             $this->db = \Config\Database::connect();
         }
         
-        $this->db->table($this->table);
+        $this->builder = $this->db->table($this->table);
     }
 
     protected $beforeInsert = ['hashPassword'];
