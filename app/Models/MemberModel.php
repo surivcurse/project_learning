@@ -70,7 +70,7 @@ class MemberModel extends Model
         return $query->getRowArray();    
     }
     public function add($data){
-        $this->db->set($data);
+        $this->builder->set($data);
         return $this->builder->insert($data);
     }
     public function edit($data, $id){
