@@ -26,11 +26,16 @@ class Member extends BaseController
             }
         }
 
-        if( $this->memberModel->add($member_data) === false){
-            $response['errors'] = $this->memberModel->errors();
-
-            return $this->setResponseFormat('json')->failValidationError($response);  
+        try{
+            if( $this->memberModel->add($member_data) === false){
+                $response['errors'] = $this->memberModel->errors();
+    
+                return $this->setResponseFormat('json')->failValidationError($response);  
+            }
+        }catch(Exception $e ){
+            return $this->setResponseFormat('json')->failValidationError($e);  
         }
+       
        
 
         // $email = $_POST['email'];
