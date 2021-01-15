@@ -9,7 +9,7 @@ class MemberModel extends Model
 
     protected $primaryKey = '_id';
     
-    public $allowedFields = ['f_name','l_name','avatar','gender','name_title', 'email','tel','password','address','class_no'];
+    protected $allowedFields = ['f_name','l_name','avatar','gender','name_title', 'email','tel','password','address','class_no'];
 
     protected $validationRules    = [
         'username'     => 'required|alpha_numeric_space|min_length[3]',
@@ -32,10 +32,6 @@ class MemberModel extends Model
         if ($db instanceof ConnectionInterface)
         {
             $this->db =& $db;
-        }
-        else
-        {
-            $this->db = Database::connect($this->DBGroup);
         }
         
         $builder = $this->db->table($this->table);
