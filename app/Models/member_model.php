@@ -27,7 +27,6 @@ class Member_Model extends Model
 
     public function __construct(ConnectionInterface &$db)
     {
-        parent::__construct();
         $this->model->setValidationRules($validationRules);
         $this->model->setValidationMessages($validationMessages);   
         $this->db =& $db;
