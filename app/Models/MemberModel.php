@@ -21,17 +21,17 @@ class MemberModel extends Model
         'tel'          => 'required'
     ];
 
-    protected $validationMessages = [
-        'email' => [
-            'required'   => 'Your email is required here',
-            'is_unique' => 'Sorry. That email has already been taken. Please choose another.'
-        ]
-    ];
+    // protected $validationMessages = [
+    //     'email' => [
+    //         'required'   => 'Your email is required here',
+    //         'is_unique' => 'Sorry. That email has already been taken. Please choose another.'
+    //     ]
+    // ];
 
     public function __construct(ConnectionInterface &$db  = null )
     {
         $this->setValidationRules($this->validationRules);
-        $this->setValidationMessages($this->validationMessages);   
+      //  $this->setValidationMessages($this->validationMessages);   
         if ($db instanceof ConnectionInterface)
         {
             $this->db =& $db;
