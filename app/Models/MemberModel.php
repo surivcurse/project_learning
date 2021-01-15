@@ -7,7 +7,7 @@ class MemberModel extends Model
     protected $db;
     protected $builder;
     protected $table = 'member';
-
+    protected $returnType = '\App\Entities\Member';
     protected $primaryKey = '_id';
     
     protected $allowedFields = ['f_name','l_name','avatar','gender','name_title', 'email','tel','password','address','class_no'];
