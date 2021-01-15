@@ -4,12 +4,14 @@ use CodeIgniter\Model;
 use CodeIgniter\Database\ConnectionInterface;
 use CodeIgniter\Validation\ValidationInterface;
 
+use App\Entities\Member;
+
 class MemberModel extends Model
 {
     protected $db;
     protected $builder;
     protected $table = 'member';
-    protected $returnType = '\App\Entities\Member';
+    protected $returnType = Member::class;
     protected $primaryKey = '_id';
     
     protected $allowedFields = ['f_name','l_name','avatar','gender','name_title', 'email','tel','password','address','class_no'];
