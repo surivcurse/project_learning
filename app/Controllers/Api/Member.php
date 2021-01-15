@@ -10,6 +10,7 @@ class Member extends BaseController
     
     public function __construct()
     {
+        helper('form');
         $this->memberModel = new \App\Models\MemberModel();
     }
 
