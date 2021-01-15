@@ -10,7 +10,6 @@ class Member extends BaseController
    
     public function __construct()
     {
-        parent::__construct();
         $memberModel = new \App\Models\MemberModel();
     }
 
