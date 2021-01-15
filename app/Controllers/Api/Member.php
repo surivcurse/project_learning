@@ -34,7 +34,7 @@ class Member extends BaseController
                 $response['errors'] = $this->memberModel->errors();
                 return $this->setResponseFormat('json')->failValidationError($response);  
             }
-        }catch(Exception $e ){
+        }catch(\Exception $e ){
             return $this->setResponseFormat('json')->failValidationError($e);  
         }
        
