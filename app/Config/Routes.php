@@ -35,7 +35,7 @@ $routes->add('/quiz/(:num)/(:num)', 'Quiz::index/$1/$2');
 
 $routes->group('api', ['namespace' => 'App\Controllers\Api'], function($routes)
 {
-	$routes->add('member', 'Api\Member::index');
+	$routes->add('member', 'Member::index');
    // $routes->add('blog', 'Admin\Blog::index');
 });
 
