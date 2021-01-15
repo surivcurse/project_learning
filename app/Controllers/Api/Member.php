@@ -24,7 +24,7 @@ class Member extends BaseController
              if(isset($_POST[$k])){
                 $member_data[$k] = $_POST[$k];
              }else{
-                $member_data[$k] = null;
+                $member_data[$k] = "";
              }
             
         }
