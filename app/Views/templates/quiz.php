@@ -29,7 +29,8 @@
 			<div id="two-columns" class="container">
 				<div class="row">
 				<div id="quiz">
-					<countdown :time="2 * 24 * 60 * 60 * 1000">
+				<!-- # day hours min sec # 2 * 24 * 60 * 60 * 1000 -->
+					<countdown :time=" 5 * 60 * 1000">
 						<template slot-scope="props"><h1 class="text-danger">เวลาในการตอบคำถาม ：{{ props.days }} วัน, {{ props.hours }} ชั่วโมง, {{ props.minutes }} นาที, {{ props.seconds }} วินาที.</h1	></template>
 					</countdown>
 				</div>
