@@ -9,7 +9,6 @@ class Member extends BaseController
     public function register(){
         $memberModel = new \App\Models\MemberModel();
 
-        print_r($memberModel->getFields);
        // protected $allowedFields = ['f_name','l_name','avatar','gender','name_title', 'email','tel','password','address','class_no'];
         // $email = $_POST['email'];
         // $email = $_POST['email'];
@@ -18,7 +17,7 @@ class Member extends BaseController
         // $email = $_POST['email'];
         // $email = $_POST['email'];
         // $email = $_POST['email'];
-      //  return view('templates/home');
+       return $this->response($memberModel->getFields);
     }
 
 
