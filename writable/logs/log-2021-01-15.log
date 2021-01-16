@@ -1,0 +1,492 @@
+CRITICAL - 2021-01-15 21:18:26 --> Object of class CodeIgniter\Database\MySQLi\Connection could not be converted to string
+#0 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->showlog()
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-15 21:20:17 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(738): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/app/Controllers/Home.php(13): CodeIgniter\Database\BaseConnection->simpleQuery('YOUR QUERY')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->showlog()
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-15 21:24:52 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(738): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/app/Controllers/Home.php(13): CodeIgniter\Database\BaseConnection->simpleQuery('YOUR QUERY')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->showlog()
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-15 21:25:00 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(738): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/app/Controllers/Home.php(13): CodeIgniter\Database\BaseConnection->simpleQuery('YOUR QUERY')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->showlog()
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-15 21:25:11 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(738): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/app/Controllers/Home.php(13): CodeIgniter\Database\BaseConnection->simpleQuery('YOUR QUERY')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->showlog()
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-15 21:25:14 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(738): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/app/Controllers/Home.php(13): CodeIgniter\Database\BaseConnection->simpleQuery('YOUR QUERY')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->showlog()
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-15 21:25:16 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(738): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/app/Controllers/Home.php(13): CodeIgniter\Database\BaseConnection->simpleQuery('YOUR QUERY')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->showlog()
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-15 21:25:23 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(738): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/app/Controllers/Home.php(13): CodeIgniter\Database\BaseConnection->simpleQuery('YOUR QUERY')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->showlog()
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-15 21:27:21 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(738): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/app/Controllers/Home.php(13): CodeIgniter\Database\BaseConnection->simpleQuery('YOUR QUERY')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->showlog()
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-15 21:27:25 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(738): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/app/Controllers/Home.php(13): CodeIgniter\Database\BaseConnection->simpleQuery('YOUR QUERY')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->showlog()
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-15 21:28:12 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(738): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/app/Controllers/Home.php(13): CodeIgniter\Database\BaseConnection->simpleQuery('show databases')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->showlog()
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-15 21:29:13 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(738): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/app/Controllers/Home.php(13): CodeIgniter\Database\BaseConnection->simpleQuery('SHOW DATABASES')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->showlog()
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-15 22:04:41 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(738): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/app/Controllers/Home.php(13): CodeIgniter\Database\BaseConnection->simpleQuery('SHOW DATABASES')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->showlog()
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-15 22:04:45 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(738): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/app/Controllers/Home.php(13): CodeIgniter\Database\BaseConnection->simpleQuery('SHOW DATABASES')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->showlog()
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-15 22:04:51 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(738): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/app/Controllers/Home.php(13): CodeIgniter\Database\BaseConnection->simpleQuery('SHOW DATABASES')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->showlog()
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-15 22:05:03 --> Class '\CodeIgniter\Database\MySQL\Connection' not found
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/Config.php(115): CodeIgniter\Database\Database->load(Array, 'default')
+#1 /var/www/html/app/Controllers/Home.php(12): CodeIgniter\Database\Config::connect()
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->showlog()
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-15 22:05:15 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(738): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/app/Controllers/Home.php(13): CodeIgniter\Database\BaseConnection->simpleQuery('SHOW DATABASES')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->showlog()
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-15 22:07:24 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(738): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/app/Controllers/Home.php(13): CodeIgniter\Database\BaseConnection->simpleQuery('show databases;')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->showlog()
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-15 22:07:25 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(738): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/app/Controllers/Home.php(13): CodeIgniter\Database\BaseConnection->simpleQuery('show databases;')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->showlog()
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-15 22:07:37 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(738): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/app/Controllers/Home.php(13): CodeIgniter\Database\BaseConnection->simpleQuery('show databases')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->showlog()
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-15 22:39:48 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(738): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/app/Controllers/Home.php(13): CodeIgniter\Database\BaseConnection->simpleQuery('show databases')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->showlog()
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-15 22:39:51 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(738): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/app/Controllers/Home.php(13): CodeIgniter\Database\BaseConnection->simpleQuery('show databases')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->showlog()
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-15 22:40:01 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(738): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/app/Controllers/Home.php(13): CodeIgniter\Database\BaseConnection->simpleQuery('show databases')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->showlog()
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-15 22:40:47 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(738): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/app/Controllers/Home.php(13): CodeIgniter\Database\BaseConnection->simpleQuery('show databases')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->showlog()
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-15 22:40:50 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(738): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/app/Controllers/Home.php(13): CodeIgniter\Database\BaseConnection->simpleQuery('show databases')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->showlog()
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-15 22:40:56 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(738): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/app/Controllers/Home.php(13): CodeIgniter\Database\BaseConnection->simpleQuery('show databases')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->showlog()
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-15 22:40:58 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(738): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/app/Controllers/Home.php(13): CodeIgniter\Database\BaseConnection->simpleQuery('show databases')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->showlog()
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-15 22:40:58 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(738): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/app/Controllers/Home.php(13): CodeIgniter\Database\BaseConnection->simpleQuery('show databases')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->showlog()
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-15 22:41:58 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(738): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/app/Controllers/Home.php(13): CodeIgniter\Database\BaseConnection->simpleQuery('show databases')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->showlog()
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-15 22:45:19 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(738): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/app/Controllers/Home.php(13): CodeIgniter\Database\BaseConnection->simpleQuery('show databases')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->showlog()
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-15 22:45:37 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(738): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/app/Controllers/Home.php(13): CodeIgniter\Database\BaseConnection->simpleQuery('show databases')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->showlog()
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-15 22:46:27 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(738): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/app/Controllers/Home.php(13): CodeIgniter\Database\BaseConnection->simpleQuery('show databases')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->showlog()
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-15 22:57:12 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(738): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/app/Controllers/Home.php(13): CodeIgniter\Database\BaseConnection->simpleQuery('show databases')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->showlog()
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-15 22:58:13 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(738): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/app/Controllers/Home.php(13): CodeIgniter\Database\BaseConnection->simpleQuery('show databases')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->showlog()
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-15 22:58:14 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(738): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/app/Controllers/Home.php(13): CodeIgniter\Database\BaseConnection->simpleQuery('show databases')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->showlog()
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-15 22:58:19 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(738): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/app/Controllers/Home.php(13): CodeIgniter\Database\BaseConnection->simpleQuery('show databases')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->showlog()
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-15 22:58:39 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(738): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/app/Controllers/Home.php(13): CodeIgniter\Database\BaseConnection->simpleQuery('show databases')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->showlog()
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-15 23:00:52 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(738): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/app/Controllers/Home.php(13): CodeIgniter\Database\BaseConnection->simpleQuery('')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->showlog()
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-15 23:01:25 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(738): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/app/Controllers/Home.php(13): CodeIgniter\Database\BaseConnection->simpleQuery('show databases;')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->showlog()
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-15 23:01:45 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(738): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/app/Controllers/Home.php(13): CodeIgniter\Database\BaseConnection->simpleQuery('show databases;')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->showlog()
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-15 23:01:46 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(738): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/app/Controllers/Home.php(13): CodeIgniter\Database\BaseConnection->simpleQuery('show databases;')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->showlog()
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-15 23:01:58 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(738): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/app/Controllers/Home.php(13): CodeIgniter\Database\BaseConnection->simpleQuery('show databases;')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->showlog()
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-15 23:10:11 --> Too few arguments to function log_message(), 1 passed in /var/www/html/app/Controllers/Home.php on line 13 and at least 2 expected
+#0 /var/www/html/app/Controllers/Home.php(13): log_message('1')
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->showlog()
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-15 23:10:29 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(738): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/app/Controllers/Home.php(14): CodeIgniter\Database\BaseConnection->simpleQuery('show databases;')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->showlog()
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-15 23:10:31 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(738): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/app/Controllers/Home.php(14): CodeIgniter\Database\BaseConnection->simpleQuery('show databases;')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->showlog()
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-15 23:11:09 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(738): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/app/Controllers/Home.php(14): CodeIgniter\Database\BaseConnection->simpleQuery('show databases;')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->showlog()
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-15 23:11:12 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(738): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/app/Controllers/Home.php(14): CodeIgniter\Database\BaseConnection->simpleQuery('show databases;')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->showlog()
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-15 23:12:36 --> Undefined variable: query
+#0 /var/www/html/app/Controllers/Home.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/a...', 14, Array)
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->showlog()
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-15 23:13:32 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/app/Controllers/Home.php(13): CodeIgniter\Database\BaseConnection->query('show databases;')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->showlog()
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-15 23:21:56 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/app/Controllers/Home.php(13): CodeIgniter\Database\BaseConnection->query('show databases;')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->showlog()
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-15 23:31:17 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/app/Controllers/Home.php(13): CodeIgniter\Database\BaseConnection->query('show databases;')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->showlog()
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-15 23:31:20 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/app/Controllers/Home.php(13): CodeIgniter\Database\BaseConnection->query('show databases;')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->showlog()
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-15 23:31:24 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/app/Controllers/Home.php(13): CodeIgniter\Database\BaseConnection->query('show databases;')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->showlog()
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-15 23:31:58 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/app/Controllers/Home.php(13): CodeIgniter\Database\BaseConnection->query('show databases;')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->showlog()
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-15 23:32:18 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/app/Controllers/Home.php(13): CodeIgniter\Database\BaseConnection->query('show databases;')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->showlog()
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-15 23:33:43 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/app/Controllers/Home.php(13): CodeIgniter\Database\BaseConnection->query('show databases;')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->showlog()
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-15 23:40:37 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/app/Controllers/Home.php(13): CodeIgniter\Database\BaseConnection->query('show databases;')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->showlog()
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-15 23:41:00 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/app/Controllers/Home.php(13): CodeIgniter\Database\BaseConnection->query('show databases;')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->showlog()
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-15 23:48:22 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/app/Controllers/Home.php(13): CodeIgniter\Database\BaseConnection->query('show databases;')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->showlog()
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-15 23:48:26 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/app/Controllers/Home.php(13): CodeIgniter\Database\BaseConnection->query('show databases;')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->showlog()
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-15 23:50:44 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/app/Controllers/Home.php(13): CodeIgniter\Database\BaseConnection->query('show databases;')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->showlog()
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-15 23:50:47 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/app/Controllers/Home.php(13): CodeIgniter\Database\BaseConnection->query('show databases;')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->showlog()
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
