@@ -2,10 +2,8 @@
 
 class Home extends BaseController
 {
-	public function index()
-	{
-		return view('templates/home');
-	}
-	//--------------------------------------------------------------------
-
+    public function index()
+    {
+        return view("templates/home");
+    }
 }
