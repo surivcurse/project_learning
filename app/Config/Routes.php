@@ -33,6 +33,12 @@ $routes->setAutoRoute(true);
 $routes->get('/', 'Home::index');
 $routes->add('/quiz/(:num)/(:num)', 'Quiz::index/$1/$2');
 
+$routes->group('api', ['namespace' => 'App\Controllers\Api'], function($routes)
+{
+	$routes->add('member', 'Member::index');
+   // $routes->add('blog', 'Admin\Blog::index');
+});
+
 /**
  * --------------------------------------------------------------------
  * Additional Routing
