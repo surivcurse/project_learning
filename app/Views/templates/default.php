@@ -28,9 +28,12 @@
 	<link rel="stylesheet" href="<?php echo base_url('css/responsive.css'); ?>">
 </head>
 <body>
-    <?= $this->renderSection('content') ?>
+	<!-- Codeigniter : Layout Content -->
+    <?php echo $this->renderSection('content') ?>
 	<!-- loader of the page -->
-	<?= $this->include('templates/loader') ?>
+	<?php echo  $this->include('templates/loader') ?>
+	<!-- Popup  -->
+	<?php echo  $this->include('templates/popup') ?>
 	<!-- include jQuery -->
 	<script src="<?= base_url('js/jquery.js') ?>"></script>
 	<!-- include jQuery -->
