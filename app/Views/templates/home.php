@@ -906,12 +906,8 @@
             </form>
         </aside>
     </main>
-
-    <?= $this->include("templates/footer") ?>
 </div>
-<!-- back top of the page -->
-<span id="back-top" class="text-center fa fa-caret-up"></span>
 
-</div>
+
 
 <?= $this->endSection("content") ?>
