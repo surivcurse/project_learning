@@ -33,18 +33,10 @@ $routes->get("/", "Home::index");
 $routes->get("/quiz/(:num)/(:num)", 'Quiz::index/$1/$2');
 
 $routes->group("api", function ($routes) {
-    $routes->resource("photos", ["controller" => "Api\Photos"]);
-    $routes->get("photos", "Api\Photos::index");
-    $routes->post("photos/register", "Api\Photos::create");
+    $routes->resource("member", ["controller" => "Api\Member"]);
+    $routes->get("member", "Api\Member::index");
+    $routes->post("member/register", "Api\Member::register");
 });
-/*
-$routes->group("api", ["namespace" => "App\Controllers\Api"], function (
-    $routes
-) {
-    $routes->post("member", "Member::index");
-    // $routes->add('blog', 'Admin\Blog::index');
-});
-*/
 
 /**
  * --------------------------------------------------------------------

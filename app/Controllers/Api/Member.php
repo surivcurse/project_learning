@@ -1,10 +1,11 @@
 <?php namespace App\Controllers\Api;
 
 use CodeIgniter\API\ResponseTrait;
-use App\Controllers\BaseController;
+use CodeIgniter\RESTful\ResourceController;
+//use App\Controllers\BaseController;
 use App\Models\MemberModel;
 
-class Member extends BaseController
+class Member extends ResourceController
 {
     use ResponseTrait;
 
@@ -22,10 +23,13 @@ class Member extends BaseController
 
     public function register()
     {
-        $memberModel = new MemberModel($db);
+        //$memberModel = new MemberModel($db);
+
+        $memberModel = model("App\Models\MemberModel");
         $member_data = [];
-        $memberModel->setValidationRules($memberModel->validationRules);
-        $memberModel->setValidationMessages($memberModel->validationMessages);
+
+        //$memberModel->setValidationRules($memberModel->validationRules);
+        //$memberModel->setValidationMessages($memberModel->validationMessages);
         // $member_id  = (int)$_SERVER['HTTP_MID'];
         // $token = $_SERVER['HTTP_TOKEN'];
         foreach ($memberModel->requiredField as $k) {
@@ -40,20 +44,13 @@ class Member extends BaseController
             if ($memberModel->insert($member_data) === false) {
                 $response["errors"] = $memberModel->errors();
                 return $this->setResponseFormat("json")->failValidationError(
-                    $response
+                    $response["errors"]
                 );
             }
         } catch (\Exception $e) {
             return $this->setResponseFormat("json")->failValidationError($e);
         }
 
-        // $email = $_POST['email'];
-        // $email = $_POST['email'];
-        // $email = $_POST['email'];
-        // $email = $_POST['email'];
-        // $email = $_POST['email'];
-        // $email = $_POST['email'];
-        // $email = $_POST['email'];
         return $this->setResponseFormat("json")->respond(
             $memberModel->getFields(),
             200

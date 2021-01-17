@@ -1,12 +1,10 @@
 <?php namespace App\Models;
 use CodeIgniter\Model;
-use CodeIgniter\Database\ConnectionInterface;
-
 use App\Entities\Member;
 
 class MemberModel extends Model
 {
-    protected $db;
+    protected $DBGroup = "default";
     protected $builder;
     protected $table = "member";
     // protected $returnType = Member::class;
@@ -69,6 +67,7 @@ class MemberModel extends Model
 
     protected $skipValidation = false;
 
+    /*
     public function __construct(ConnectionInterface &$db = null)
     {
         if ($db instanceof ConnectionInterface) {
@@ -79,6 +78,7 @@ class MemberModel extends Model
 
         $this->builder = $this->db->table($this->table);
     }
+    */
 
     protected $beforeInsert = ["hashPassword"];
 
