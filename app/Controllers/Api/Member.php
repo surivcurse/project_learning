@@ -43,17 +43,12 @@ class Member extends ResourceController
         try {
             if ($memberModel->insert($member_data) === false) {
                 $response["errors"] = $memberModel->errors();
-                return $this->setResponseFormat("json")->failValidationError(
-                    $response["errors"]
-                );
+                return $this->setResponseFormat("json")->respond($response);
             }
         } catch (\Exception $e) {
             return $this->setResponseFormat("json")->failValidationError($e);
         }
 
-        return $this->setResponseFormat("json")->respond(
-            $memberModel->getFields(),
-            200
-        );
+        return $this->setResponseFormat("json")->respond($response, 400);
     }
 }

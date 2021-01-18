@@ -1,0 +1,14 @@
+CRITICAL - 2021-01-18 05:03:57 --> Argument 1 passed to App\Controllers\Api\Member::failValidationError() must be of the type string, array given, called in /var/www/html/app/Controllers/Api/Member.php on line 47
+#0 /var/www/html/app/Controllers/Api/Member.php(47): App\Controllers\Api\Member->failValidationError(Array)
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Api\Member->register()
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Member))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(47): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-18 05:04:48 --> Argument 1 passed to App\Controllers\Api\Member::failValidationError() must be of the type string, array given, called in /var/www/html/app/Controllers/Api/Member.php on line 47
+#0 /var/www/html/app/Controllers/Api/Member.php(47): App\Controllers\Api\Member->failValidationError(Array)
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Api\Member->register()
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Member))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(47): CodeIgniter\CodeIgniter->run()
+#5 {main}
