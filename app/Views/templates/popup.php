@@ -26,7 +26,7 @@
         </form>
     </div>
     <div id="popup2" class="lightbox-demo">
-        <form action="#" class="user-log-form">
+        <form @submit="checkForm" class="user-log-form">
             <h2>Register Form</h2>
             <div class="form-group">
                 <input type="text" class="form-control element-block" placeholder="First Name*">
@@ -51,6 +51,10 @@
             </div>
             <div class="form-group">
                 <input type="password" class="form-control element-block" placeholder="Password *">
+            </div>
+            <div class="form-group">
+                <input type="password" name="retype-password" class="form-control element-block"
+                    placeholder="Retype Password *">
             </div>
             <div class="form-group">
                 <textarea class="form-control element-block" rows="3" placeholder="Address *"></textarea>
