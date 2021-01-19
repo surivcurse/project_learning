@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
 cp env .env
+
 echo "app.baseURL = 'https://lms.bestpro.work'" >> .env
 echo "CI_ENVIRONMENT = production" >> .env
 echo "database.default.hostname = localhost" >> .env
