@@ -2,7 +2,7 @@
 
 use CodeIgniter\Database\Migration;
 
-class AddBlog extends Migration
+class AddMember extends Migration
 {
     public function up()
     {
