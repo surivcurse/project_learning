@@ -70,7 +70,7 @@
         methods : {
             getToken:function(){
                 var self = this;
-                $.mycurl.gets( "http://localhost/api/tester/iregistoken",true,function(res){
+                $.mycurl.gets( "https://lms.bestpro.work/api/tester/iregistoken",true,function(res){
                     console.log(res);
                     self.headerToken2 = res['token'];
                     self.headerToken = res['tokenhead'];
