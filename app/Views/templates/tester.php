@@ -64,7 +64,7 @@
             headerToken2 : ""
         },
         mounted: function () {
-            document.cookie = 'kuid=testData5555; domain=.bestpro; path=/'
+            document.cookie = 'kuid=testData5555; domain=.bestpro.work; path=/'
             this.getToken();
         },
         methods : {
