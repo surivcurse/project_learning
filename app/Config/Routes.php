@@ -36,6 +36,11 @@ $routes->group("api", function ($routes) {
     $routes->resource("member", ["controller" => "Api\Member"]);
     $routes->get("member", "Api\Member::index");
     $routes->post("member/register", "Api\Member::register");
+
+   // $routes->resource("tester", ["controller" => "Api\Tester"]);
+    $routes->add("tester", "Api\Tester::index");
+    $routes->add("tester/iregistoken", "Api\Tester::iregistoken");
+
 });
 
 /**

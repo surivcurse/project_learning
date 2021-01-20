@@ -14,8 +14,10 @@ function readCookie(name) {
 }
 
 function readUInfo(){
-	uinfo = readCookie('lmuifo');
-	u_info = JSON.parse(uinfo);
+	var uinfo = readCookie('kuid');
+	if(uinfo != null){
+		u_info = uinfo
+	}
 }
 //self.userLogin.token_miniapp+self.userLogin.member_id
 function getMemberID(){
@@ -23,27 +25,27 @@ function getMemberID(){
 		readUInfo();
 	}
 	u_info = JSON.parse(uinfo);
-		if(u_info!=null){
-			if(u_info.member_id != undefined){
-				MemberID = u_info.member_id;
-			}
+		// if(u_info!=null){
+		// 	if(u_info.member_id != undefined){
+		// 		MemberID = u_info.member_id;
+		// 	}
 			
-		}
-	return MemberID;
+		// }
+	return u_info
 }
 
 
 function getUserToken(){
-	var UserToken = "";
+	// var UserToken = "";
 	if( u_info == null){
 		readUInfo();
 	}
-	if(u_info!=null){
-		if(u_info.token_miniapp != undefined && u_info.member_id != undefined){
-			UserToken = u_info.token_miniapp+u_info.member_id;
-		}
-	}
-	return UserToken;
+	// if(u_info!=null){
+	// 	if(u_info.token_miniapp != undefined && u_info.member_id != undefined){
+	// 		UserToken = u_info.token_miniapp+u_info.member_id;
+	// 	}
+	// }
+	return u_info;
 }
 
 
@@ -57,9 +59,9 @@ function getHeaders(r=false){
 			headers.MID = "0"; 
 			headers.TOKEN = "testdata";
 		}else{
-			if(MemberID != 0){
-				headers.MID = ""+getMemberID();
-			}
+			// if(MemberID != 0){
+			// 	headers.MID = ""+getMemberID();
+			// }
 			var UserToken = getUserToken();
 			if(UserToken!= ""){
 				headers.TOKEN = ""+UserToken;
